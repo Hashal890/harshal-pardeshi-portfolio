@@ -1,11 +1,4 @@
-import {
-  Box,
-  CloseButton,
-  Flex,
-  useColorModeValue,
-  Text,
-  Avatar,
-} from "@chakra-ui/react";
+import { Box, CloseButton, Flex, useColorModeValue } from "@chakra-ui/react";
 import React from "react";
 import NavbarItem from "./NavbarItem";
 import { NavbarLinks } from "../../assets/data";
