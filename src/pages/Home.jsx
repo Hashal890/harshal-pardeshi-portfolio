@@ -1,14 +1,6 @@
 import React from "react";
-import {
-  Flex,
-  Heading,
-  Text,
-  Code,
-  Button,
-} from "@chakra-ui/react";
-import { IoMdDownload } from "react-icons/io";
-import { FaEye } from "react-icons/fa";
-import Typist from "react-typist";
+import { Flex, Heading, Text, Code } from "@chakra-ui/react";
+import ResumeButtons from "../components/home/ResumeButtons";
 
 export default function Home() {
   return (
@@ -30,11 +22,9 @@ export default function Home() {
       >
         Harshal Pardeshi
       </Heading>
-      <Typist>
-        <Code colorScheme={"messenger"} fontSize={"18px"}>
-          A Full Stack Web Developer
-        </Code>
-      </Typist>
+      <Code colorScheme={"messenger"} fontSize={"18px"}>
+        A Full Stack Web Developer
+      </Code>
       <Text maxW={"600px"} textAlign={"center"} color={"gray"}>
         Aspiring Full Stack Web Developer with a strong foundation in MERN
         stacks, Next.js, Redux, Node.js, JavaScript, TypeScript, HTML, CSS and
@@ -43,43 +33,7 @@ export default function Home() {
         environments, with a keen eye for detail and a passion for continuous
         learning and growth.
       </Text>
-      <Flex
-        gap={[0, 0, 4]}
-        justifyContent={"center"}
-        alignItems={"center"}
-        flexDir={["column", "column", "row"]}
-      >
-        <Button
-          as="a"
-          href={
-            "https://drive.google.com/file/d/1pV8XBrEE6ZaN5BbITcfE215MNNCLl94z/view?usp=sharing"
-          }
-          target="_blank"
-          rel="noopener noreferrer"
-          rightIcon={<FaEye />}
-          w="ms"
-          mt={6}
-          colorScheme={"linkedin"}
-          size={"md"}
-        >
-          View Resume
-        </Button>
-        <Button
-          as="a"
-          href={
-            "https://drive.google.com/uc?export=download&id=1pV8XBrEE6ZaN5BbITcfE215MNNCLl94z"
-          }
-          target="_blank"
-          rel="noopener noreferrer"
-          rightIcon={<IoMdDownload />}
-          w="ms"
-          mt={6}
-          colorScheme={"linkedin"}
-          size={"md"}
-        >
-          Download Resume
-        </Button>
-      </Flex>
+      <ResumeButtons />
     </Flex>
   );
 }
