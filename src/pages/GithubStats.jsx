@@ -6,7 +6,7 @@ import GithubCalendar from "../components/github-stats/GitHubCalender";
 
 const GithubStats = () => {
   return (
-    <Box mt={[20, 20, 32]}>
+    <Box mt={[20, 20, 32]} id={"github-stats"}>
       <SectionHeading sectionName={"GitHub Stats"} />
       <GitHubCommitsInfo />
       <GithubCalendar />
