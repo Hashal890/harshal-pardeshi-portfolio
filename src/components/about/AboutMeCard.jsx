@@ -11,7 +11,7 @@ const AboutMeCard = () => {
         justifyContent={"center"}
         alignItems={"center"}
         gap={4}
-        flexDir={["column-reverse", "column-reverse", "row"]}
+        flexDir={["column-reverse", "column-reverse", "column-reverse", "row"]}
       >
         <Box>
           <Text color={"gray"} mb={4}>
