@@ -1,0 +1,17 @@
+/* Scrollbar Track */
+::-webkit-scrollbar-track {
+  background: rgb(255, 255, 255);
+  border-radius: 4px;
+}
+
+/* Scrollbar Thumb */
+::-webkit-scrollbar-thumb {
+  background: rgb(34, 255, 255);
+  border-radius: 4px;
+}
+
+/* Optional: Scrollbar Width and Height */
+::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
