@@ -275,6 +275,27 @@ export const ProjectsList = [
       "https://github.com/Hashal890/Exclusive-Yoox-Clone/raw/main/assets/mensProductsPage.png",
   },
   {
+    id: 15,
+    title: "Products Transaction App",
+    description:
+      "Developed a comprehensive single-page MERN application showcasing a product transactions table alongside monthly transaction statistics. It includes dynamic visual elements such as a bar chart illustrating price ranges and item counts for the chosen month, and a pie chart presenting unique categories with corresponding item counts.",
+    techStack: [
+      "MongoDB",
+      "Mongoose",
+      "Express.js",
+      "React.js",
+      "Context API",
+      "JavaScript",
+      "Axios",
+      "Chakra UI",
+      "React Icons",
+    ],
+    githubUrl: "https://github.com/Hashal890/products-transaction",
+    liveUrl: "https://products-transaction-statistics-frontend.vercel.app/",
+    image:
+      "https://github.com/Hashal890/products-transaction/raw/main/screenshots/product-transactions-table.jpg",
+  },
+  {
     id: 2,
     title: "Bitrix-24 Website Clone",
     description:

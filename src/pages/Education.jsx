@@ -12,7 +12,7 @@ import EducationCard from "../components/education/EducationCard";
 
 const Education = () => {
   return (
-    <Box id={"education"} mt={[20, 20, 32]}>
+    <Box id={"education"} mt={[20, 20, 44]}>
       <SectionHeading sectionName={"Education"} />
       <Card maxW={"600px"} m={"auto"}>
         <CardBody>

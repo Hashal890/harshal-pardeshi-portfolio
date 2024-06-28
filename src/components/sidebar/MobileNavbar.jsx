@@ -20,8 +20,11 @@ const MobileNavbar = ({ onOpen, ...rest }) => {
       bg={useColorModeValue("white", "gray.900")}
       borderBottomWidth="1px"
       borderBottomColor={useColorModeValue("gray.200", "gray.700")}
-      justifyContent={{ base: "space-between", md: "flex-end" }}
+      justifyContent={{ base: "space-between", md: "flex-end", sm: "flex-end" }}
       {...rest}
+      position={["fixed", "unset"]}
+      w={["100%", "auto"]}
+      zIndex={[10, 0]}
     >
       <IconButton
         display={{ base: "flex", md: "none" }}

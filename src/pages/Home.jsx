@@ -13,6 +13,7 @@ export default function Home() {
       h={"80vh"}
       w={"100%"}
       id={"home"}
+      mt={[28, 0]}
     >
       <Text color={"gray"}>HI MY NAME IS</Text>
       <SectionHeading sectionName={"Harshal Pardeshi"} />
