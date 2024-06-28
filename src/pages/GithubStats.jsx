@@ -2,12 +2,12 @@ import React from "react";
 import { Box } from "@chakra-ui/react";
 import SectionHeading from "../components/common/SectionHeading";
 
-const Contact = () => {
+const GithubStats = () => {
   return (
-    <Box id={"contact"} mt={[20, 20, 32]}>
-      <SectionHeading sectionName={"Contact"} />
+    <Box mt={[20, 20, 32]}>
+      <SectionHeading sectionName={"GitHub Stats"} />
     </Box>
   );
 };
 
-export default Contact;
+export default GithubStats;

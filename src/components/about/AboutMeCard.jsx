@@ -1,20 +1,12 @@
 import React from "react";
-import { Box, Flex, Heading, Image, Text } from "@chakra-ui/react";
+import { Box, Flex, Image, Text } from "@chakra-ui/react";
+import SectionHeading from "../common/SectionHeading";
 import ProfilePhoto from "../../assets/Harshal-Pardeshi-Profile-Photo.png";
 
 const AboutMeCard = () => {
   return (
     <Box>
-      <Heading
-        textAlign={"center"}
-        bgGradient="linear(to-r, teal.400, green.500)"
-        bgClip="text"
-        fontWeight="extrabold"
-        fontSize={{ base: "3xl", md: "4xl", lg: "5xl" }}
-        my={8}
-      >
-        About Me
-      </Heading>
+      <SectionHeading sectionName={"About Me"} />
       <Flex
         justifyContent={"center"}
         alignItems={"center"}

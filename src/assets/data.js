@@ -240,7 +240,9 @@ export const SkillsList = [
 export const NavbarLinks = [
   { id: 1, to: "home", name: "Home" },
   { id: 2, to: "about", name: "About" },
+  { id: 7, to: "education", name: "Education" },
   { id: 3, to: "skills", name: "Skills" },
+  { id: 8, to: "github-stats", name: "Github Stats" },
   { id: 4, to: "projects", name: "Projects" },
   { id: 5, to: "contact", name: "Contact" },
   {

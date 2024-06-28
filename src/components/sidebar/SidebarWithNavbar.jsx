@@ -12,6 +12,8 @@ import About from "../../pages/About";
 import Skills from "../../pages/Skills";
 import Projects from "../../pages/Projects";
 import Contact from "../../pages/Contact";
+import Education from "../../pages/Education";
+import GithubStats from "../../pages/GithubStats";
 
 const SidebarWithHeader = () => {
   const { isOpen, onOpen, onClose } = useDisclosure();
@@ -38,7 +40,9 @@ const SidebarWithHeader = () => {
       <Box ml={{ base: 0, md: 60 }} p="4">
         <Home />
         <About />
+        <Education />
         <Skills />
+        <GithubStats />
         <Projects />
         <Contact />
       </Box>

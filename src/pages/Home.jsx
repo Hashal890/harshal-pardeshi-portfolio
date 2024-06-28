@@ -1,6 +1,7 @@
 import React from "react";
-import { Flex, Heading, Text, Code } from "@chakra-ui/react";
+import { Flex, Text, Code } from "@chakra-ui/react";
 import ResumeButtons from "../components/home/ResumeButtons";
+import SectionHeading from "../components/common/SectionHeading";
 
 export default function Home() {
   return (
@@ -14,14 +15,7 @@ export default function Home() {
       id={"home"}
     >
       <Text color={"gray"}>HI MY NAME IS</Text>
-      <Heading
-        bgGradient="linear(to-r, teal.400, green.500)"
-        bgClip="text"
-        fontWeight="extrabold"
-        fontSize={{ base: "3xl", md: "4xl", lg: "5xl" }}
-      >
-        Harshal Pardeshi
-      </Heading>
+      <SectionHeading sectionName={"Harshal Pardeshi"} />
       <Code colorScheme={"messenger"} fontSize={"18px"}>
         A Full Stack Web Developer
       </Code>

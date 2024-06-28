@@ -4,7 +4,12 @@ import AboutMeCard from "../components/about/AboutMeCard";
 
 const About = () => {
   return (
-    <Box id={"about"} w={["95%", "95%", "80%"]} m={"auto"} pt={4}>
+    <Box
+      id={"about"}
+      m={"auto"}
+      pt={4}
+      w={["95%", "95%", "80%"]}
+    >
       <AboutMeCard />
     </Box>
   );
