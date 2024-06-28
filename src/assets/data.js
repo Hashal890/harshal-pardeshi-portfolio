@@ -244,11 +244,16 @@ export const NavbarLinks = [
   { id: 3, to: "skills", name: "Skills" },
   { id: 8, to: "github-stats", name: "Github Stats" },
   { id: 4, to: "projects", name: "Projects" },
-  { id: 5, to: "contact", name: "Contact" },
+  { id: 5, to: "contact", name: "Contact Me" },
   {
     id: 6,
     to: "https://drive.google.com/file/d/1pV8XBrEE6ZaN5BbITcfE215MNNCLl94z/view?usp=sharing",
     name: "Resume",
+  },
+  {
+    id: 8,
+    to: "",
+    name: "Theme",
   },
 ];
 
@@ -505,29 +510,34 @@ export const ContactDetails = [
     icon: <BsTelephoneFill />,
     link: "tel:+8329729568",
     name: "+91 8329729568",
+    colorScheme: "teal"
   },
   {
     id: 2,
     icon: <BsWhatsapp />,
     link: "https://api.whatsapp.com/send/?phone=8329729568&text=Hey+Harshal%21+I+just+checked+out+your+website%2C+and+I+would+love+to+discuss+about+a+project+with+you&app_absent=0&lang=en",
     name: "+91 8329729568",
+    colorScheme: "whatsapp"
   },
   {
     id: 3,
     icon: <BsGithub />,
     link: "https://github.com/hashal890",
     name: "hashal890",
+    colorScheme: "green"
   },
   {
     id: 4,
     icon: <HiOutlineMail />,
     link: "mailto: pardeshiharshal90@gmail.com",
     name: "pardeshiharshal90@gmail.com",
+    colorScheme: "blue"
   },
   {
     id: 5,
     icon: <BsLinkedin />,
     link: "https://www.linkedin.com/in/harshalpardeshi/",
     name: "harshalpardeshi",
+    colorScheme: "linkedin"
   },
 ];
