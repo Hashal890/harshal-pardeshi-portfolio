@@ -250,11 +250,6 @@ export const NavbarLinks = [
     to: "https://drive.google.com/file/d/1pV8XBrEE6ZaN5BbITcfE215MNNCLl94z/view?usp=sharing",
     name: "Resume",
   },
-  {
-    id: 8,
-    to: "",
-    name: "Theme",
-  },
 ];
 
 export const ProjectsList = [
